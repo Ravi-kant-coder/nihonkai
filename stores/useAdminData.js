@@ -1,0 +1,41 @@
+import { create } from "zustand";
+import api from "@/lib/axios";
+
+export const useAdminData = create((set) => ({
+  querys: [],
+
+  //get all queries
+  fetchQuerys: async () => {
+    try {
+      // const res = await fetch("http://localhost:4000/api/querys");
+      const res = await api.get("/querys");
+      set({ querys: res.data });
+      // const json = await res.json();
+    } catch (err) {
+      console.error("Get wala Error", err);
+    }
+    // set({ data: json });
+  },
+
+  //post a single query
+  createQuery: async (formData) => {
+    try {
+      const res = await api.post("/querys", formData);
+      set((state) => ({ querys: [...state.querys, res.data] }));
+    } catch (err) {
+      console.error("Post wala Error", err);
+    }
+  },
+
+  //delete a query by Id
+  deleteQuery: async (id) => {
+    try {
+      await api.delete(`/querys/${id}`);
+      set((state) => ({
+        querys: state.querys.filter((query) => query._id !== id),
+      }));
+    } catch (err) {
+      console.error("Delete wala Error", err);
+    }
+  },
+}));
