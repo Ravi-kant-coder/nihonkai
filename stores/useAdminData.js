@@ -7,7 +7,7 @@ export const useAdminData = create((set) => ({
   //get all queries
   fetchQuerys: async () => {
     try {
-      const res = await api.get("/querys");
+      const res = await api.get("/api/querys");
       set({ querys: res.data });
     } catch (err) {
       console.error("Get wala Error", err);
@@ -17,7 +17,7 @@ export const useAdminData = create((set) => ({
   //post a single query
   createQuery: async (formData) => {
     try {
-      const res = await api.post("/querys", formData);
+      const res = await api.post("/api/querys", formData);
       set((state) => ({ querys: [...state.querys, res.data] }));
     } catch (err) {
       console.error("Post wala Error", err);
@@ -27,7 +27,7 @@ export const useAdminData = create((set) => ({
   //delete a query by Id
   deleteQuery: async (id) => {
     try {
-      await api.delete(`/querys/${id}`);
+      await api.delete(`/api/querys/${id}`);
       set((state) => ({
         querys: state.querys.filter((query) => query._id !== id),
       }));
