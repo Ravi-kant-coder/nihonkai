@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import axios from "@/lib/axios"; // Your central Axios instance
+import axios from "@/lib/axios"; // Central Axios instance
 
 export const useLikeStore = create((set) => ({
   likedCount: 0,
