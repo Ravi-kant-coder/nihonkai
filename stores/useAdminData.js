@@ -7,14 +7,11 @@ export const useAdminData = create((set) => ({
   //get all queries
   fetchQuerys: async () => {
     try {
-      // const res = await fetch("http://localhost:4000/api/querys");
       const res = await api.get("/querys");
       set({ querys: res.data });
-      // const json = await res.json();
     } catch (err) {
       console.error("Get wala Error", err);
     }
-    // set({ data: json });
   },
 
   //post a single query
