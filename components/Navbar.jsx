@@ -142,6 +142,7 @@ const Navbar = () => {
               initial={{ y: -600 }}
               animate={{ y: 0 }}
               transition={{ type: "spring", stiffness: 100 }}
+              className="hidden lg:block"
             >
               <StudyJapanLow />
             </motion.div>

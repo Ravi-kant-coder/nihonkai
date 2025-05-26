@@ -39,9 +39,9 @@ const StudyJapanAbv = () => {
         <a
           href={"https://www.learnjapanesedelhi.com/study-in-japan"}
           target="_blank"
-          className="mt-2 lg:w-[20vw] w-[45vw] px-2 lg:p-2 dark:bg-gray-400 dark:text-black bg-gray-900 cursor-pointer flex hover:bg-black text-white py-1 lg:px-5 rounded transition duration-200"
+          className="mt-2 lg:text-lg text-sm lg:w-[20vw] items-center justify-start w-full px-2 lg:p-2 dark:bg-gray-400 dark:text-black bg-gray-900 cursor-pointer flex hover:bg-black text-white py-1 lg:px-5 rounded transition duration-200"
         >
-          <FileInput className="mr-2" />
+          <FileInput className="mr-2 " />
           Visa Process Details
         </a>
       </div>

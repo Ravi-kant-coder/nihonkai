@@ -26,9 +26,9 @@ const ThemeToggle = () => {
       <span className="flex flex-col  lg:pt-0 lg:flex-row items-center px-2 justify-center lg:justify-between">
         {darkMode ? <Sun /> : <CloudRainWind />}
         {darkMode ? (
-          <span className="ml-2 ">Sun Mode</span>
+          <span className="ml-2 lg:text-md text-sm">Sun Mode</span>
         ) : (
-          <span className="ml-2 ">Rain Mode</span>
+          <span className="ml-2 lg:text-md text-sm">Rain Mode</span>
         )}
       </span>
     </div>

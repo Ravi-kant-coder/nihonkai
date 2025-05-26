@@ -42,7 +42,7 @@ const StudyJapanLwst = () => {
         <a
           href={"https://www.learnjapanesedelhi.com/study-in-japan"}
           target="_blank"
-          className="mt-2 lg:w-[20vw] w-[55vw] px-2 lg:p-2 dark:bg-gray-400 dark:text-black bg-gray-900 cursor-pointer flex hover:bg-black text-white py-1 lg:px-5 rounded transition duration-200"
+          className="mt-2 lg:w-[22vw] w-full lg:text-lg text-sm px-2 lg:p-2 dark:bg-gray-400 dark:text-black bg-gray-900 cursor-pointer flex items-center justify-start hover:bg-black text-white py-1 lg:px-5 rounded transition duration-200"
         >
           <HandCoins className="mr-2" />
           Income & Expenses Details

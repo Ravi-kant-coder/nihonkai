@@ -53,7 +53,7 @@ const NmaxExp = () => {
               </th>
             </tr>
           </thead>
-          <tbody className="text-sm block overflow-y-scroll h-[40vh]">
+          <tbody className="text-sm block overflow-y-scroll h-[30vh]">
             <tr>
               <td className="lg:py-3 py-1 pl-2 font-bold lg:px-4 border-b dark:border-gray-700">
                 Cost

@@ -7,12 +7,12 @@ const PhotosLwrDiv = () => {
         <img
           src={"/class5.jpg"}
           alt="Nihongomax"
-          className="lg:rounded-lg rounded-md m-2 lg:w-85 lg:h-65 w-50 h-40"
+          className="lg:rounded-lg rounded-md m-2 lg:w-85 lg:h-65 w-45 h-36"
         />
         <img
           src={"/class7.jpg"}
           alt="Nihongomax"
-          className="lg:rounded-lg m-2 rounded-md lg:w-85 lg:h-65 w-50 h-40 object-cover"
+          className="lg:rounded-lg m-2 rounded-md lg:w-85 lg:h-65 w-45 h-36 object-cover"
         />
       </div>
       <div className="lg:flex lg:flex-row hidden rounded-md flex-col lg:ml-1">
@@ -20,12 +20,12 @@ const PhotosLwrDiv = () => {
           <img
             src={"/class8.jpg"}
             alt="Nihongomax"
-            className="lg:rounded-lg rounded-md m-2 lg:w-85 lg:h-65 w-50 h-40"
+            className="lg:rounded-lg rounded-md m-2 lg:w-85 lg:h-65 w-45 h-36"
           />
           <img
             src={"/class2.jpg"}
             alt="Nihongomax"
-            className="lg:rounded-lg rounded-md m-2 hidden lg:block lg:w-85 lg:h-65 w-50 h-40"
+            className="lg:rounded-lg rounded-md m-2 hidden lg:block lg:w-85 lg:h-65 w-45 h-36"
           />
         </div>
       </div>

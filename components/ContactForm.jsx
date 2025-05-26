@@ -85,11 +85,12 @@ const ContactForm = () => {
           animate={{ opacity: 1, y: 20 }}
           transition={{ type: "spring", stiffness: 200 }}
         >
-          <Card className=" dark:bg-black bg-[rgb(170,170,170)] lg:p-5 lg:w-[25vw] py-15 lg:py-10">
+          <Card className="w-[70vw] dark:bg-black bg-[rgb(170,170,170)] lg:p-5 lg:w-[25vw] py-15 lg:py-10 ">
             <CardContent>
               <div className="text-center mb-2 text-2xl">
-                <h1 className="lg:text-[18px] mt-4 mb-5 ">
-                  Call 7678461209 (Tue Thu OFF)
+                <h1 className="lg:text-[18px] text-md mt-4 mb-5 ">
+                  Call us 7678461209 <br />{" "}
+                  <p className="text-sm">(Tue Thu OFF)</p>
                 </h1>
                 <button
                   className="absolute top-4 hover:bg-[rgb(120,120,120)] bg-[rgb(150,150,150)] right-4 cursor-pointer dark:bg-gray-700 p-1 rounded"
