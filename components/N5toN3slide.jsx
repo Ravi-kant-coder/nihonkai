@@ -13,15 +13,18 @@ const N5toN3slide = () => {
               className="dark:opacity-60 rounded-lg mx-auto"
             />
 
-            <h3 className="lg:font-semibold text-sm lg:text-lg">
+            <h3 className="lg:font-semibold text-sm lg:text-lg ">
               Begginer's Japanese (N5)
               <br />
               FEE: 19,000/- (Online/Offline)
               <br />
               Duration: 5 months
               <br />
-              Material: 聴解(Chokai), 読解(Dokkai), 文法(Bunpo),
-              文字語彙漢字(Mojigoi Kanji)
+              <span className="hidden lg:inline">
+                {" "}
+                Material: 聴解(Chokai), 読解(Dokkai), 文法(Bunpo),
+                文字語彙漢字(Mojigoi Kanji)
+              </span>
             </h3>
             <h3 className="text-center font-semibold text-xs mt-1 lg:text-lg">
               <span className="hidden lg:inline">Click</span>
@@ -49,8 +52,11 @@ const N5toN3slide = () => {
               <br />
               Duration: 6 months
               <br />
-              Material: 聴解(Chokai), 読解(Dokkai), 文法(Bunpo),
-              文字語彙漢字(Mojigoi Kanji)
+              <span className="hidden lg:inline">
+                {" "}
+                Material: 聴解(Chokai), 読解(Dokkai), 文法(Bunpo),
+                文字語彙漢字(Mojigoi Kanji)
+              </span>
             </h3>
             <h3 className="text-center font-semibold text-xs mt-1 lg:text-lg">
               <span className="hidden lg:inline">Click</span>
@@ -78,8 +84,11 @@ const N5toN3slide = () => {
               <br />
               Duration: 6 months
               <br />
-              Material: 聴解(Chokai), 読解(Dokkai), 文法(Bunpo),
-              文字語彙漢字(Mojigoi Kanji)
+              <span className="hidden lg:inline">
+                {" "}
+                Material: 聴解(Chokai), 読解(Dokkai), 文法(Bunpo),
+                文字語彙漢字(Mojigoi Kanji)
+              </span>
             </h3>
             <h3 className="text-center font-semibold text-xs mt-1 lg:text-lg">
               <span className="hidden lg:inline">Click</span>

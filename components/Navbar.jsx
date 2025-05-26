@@ -78,7 +78,7 @@ const Navbar = () => {
           <TabsList className="w-full dark:bg-black h-13 lg:h-10 bg-[rgb(140,140,140)] lg:rounded-l-none">
             <TabsTrigger
               value="NmaxExp"
-              className="cursor-pointer border-1 border-red-600 dark:text-white dark:bg-black dark:data-[state=active]:bg-gray-600"
+              className="cursor-pointer border-1 border-white dark:text-white dark:bg-black dark:data-[state=active]:bg-gray-600"
             >
               <span className=" flex flex-col lg:flex-row items-center justify-center lg:justify-between">
                 <Rss className="lg:mr-4" />

@@ -5,7 +5,7 @@ const StudyJapanLow = () => {
     <div className="lg:h-[28vh] lg:m-2 m-1 lg:w-[90vw] w-[95vw] mx-auto bg-green-100 dark:bg-black/80 overflow-hidden rounded-xl flex">
       <div>
         <img
-          src={"/night.jpg"}
+          src={"/Night.jpg"}
           alt="Japan Visa"
           className="lg:w-[30vw] lg:h-[30vh] w-[40vw] h-[25vh] object-cover dark:opacity-60"
         />

@@ -20,8 +20,11 @@ const N2N1kaiwslide = () => {
               <br />
               Duration: 6 months
               <br />
-              Material: 聴解(Chokai), 読解(Dokkai), 文法(Bunpo),
-              文字語彙漢字(Mojigoi Kanji)
+              <span className="hidden lg:inline">
+                {" "}
+                Material: 聴解(Chokai), 読解(Dokkai), 文法(Bunpo),
+                文字語彙漢字(Mojigoi Kanji)
+              </span>
             </h3>
             <h3 className="text-center font-semibold text-xs mt-1 lg:text-lg">
               <span className="hidden lg:inline">Click</span>
@@ -49,8 +52,11 @@ const N2N1kaiwslide = () => {
               <br />
               Duration: 6 months
               <br />
-              Material: 聴解(Chokai), 読解(Dokkai), 文法(Bunpo),
-              文字語彙漢字(Mojigoi Kanji)
+              <span className="hidden lg:inline">
+                {" "}
+                Material: 聴解(Chokai), 読解(Dokkai), 文法(Bunpo),
+                文字語彙漢字(Mojigoi Kanji)
+              </span>
             </h3>
             <h3 className="text-center font-semibold text-xs mt-1 lg:text-lg">
               <span className="hidden lg:inline">Click</span>
@@ -72,8 +78,12 @@ const N2N1kaiwslide = () => {
             Japanese Kaiwa
             <br />
             Business scenario, Polite conversation丁寧語, Honorific and Humble
-            Expressions、慣用句、Interpretation Training <br />
-            (For N3/N2 cleared)
+            Expressions{" "}
+            <span className="hidden lg:inline">
+              {" "}
+              慣用句、Interpretation Training <br />
+              (For N3/N2 cleared)
+            </span>
           </h3>
           <h3 className="text-center font-semibold text-xs mt-1 lg:text-lg">
             Contact us for details
