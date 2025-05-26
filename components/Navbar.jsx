@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex justify-center items-center lg:mx-10">
           {/*----------------- First half tabs (Fixed-Bottom on Mobile) ----------------------  */}
 
-          <TabsList className="w-full fixed bottom-2 dark:bg-black bg-[rgb(140,140,140)] h-25 lg:h-10 mx-2 lg:mx-0 lg:static lg:rounded-r-none">
+          <TabsList className="w-full fixed bottom-2 dark:bg-black bg-[rgb(140,140,140)] h-20 lg:h-10 mx-2 lg:mx-0 lg:static lg:rounded-r-none">
             <div className="flex gap-2 w-full justify-center m-5">
               <TabsTrigger
                 value="jap-courses"
@@ -36,8 +36,11 @@ const Navbar = () => {
               >
                 <span className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
                   <BookOpenText className="lg:mr-4" />
-                  Japanese
-                  <br /> Courses
+                  <p className="lg:hidden block">
+                    Japanese
+                    <br /> Courses
+                  </p>
+                  <p className="hidden lg:block"> Japanese Courses</p>
                 </span>
               </TabsTrigger>
               <TabsTrigger
@@ -46,8 +49,12 @@ const Navbar = () => {
               >
                 <span className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
                   <Plane className="lg:mr-4" />
-                  Study
-                  <br /> in Japan
+
+                  <p className="lg:hidden block">
+                    Study
+                    <br /> in Japan
+                  </p>
+                  <p className="hidden lg:block">Study in Japan</p>
                 </span>
               </TabsTrigger>
               <TabsTrigger
@@ -56,8 +63,11 @@ const Navbar = () => {
               >
                 <span className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
                   <Images className="lg:mr-4" />
-                  Institute
-                  <br /> Photos
+                  <p className="lg:hidden block">
+                    Institute
+                    <br /> Photos
+                  </p>
+                  <p className="hidden lg:block">Institute Photos</p>
                 </span>
               </TabsTrigger>
             </div>
@@ -65,24 +75,16 @@ const Navbar = () => {
 
           {/*----------------- Second half tabs (Up on Mobile) ----------------------  */}
 
-          <TabsList className="w-full dark:bg-black h-20 lg:h-10 bg-[rgb(140,140,140)] lg:rounded-l-none">
+          <TabsList className="w-full dark:bg-black h-13 lg:h-10 bg-[rgb(140,140,140)] lg:rounded-l-none">
             <TabsTrigger
               value="NmaxExp"
-              className="cursor-pointer border-1 border-white dark:text-white dark:bg-black dark:data-[state=active]:bg-gray-600"
+              className="cursor-pointer border-1 border-red-600 dark:text-white dark:bg-black dark:data-[state=active]:bg-gray-600"
             >
-              <span className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
+              <span className=" flex flex-col lg:flex-row items-center justify-center lg:justify-between">
                 <Rss className="lg:mr-4" />
                 nihongomax.com
               </span>
             </TabsTrigger>
-            {/* <TabsTrigger
-              value="Study-Online"
-              className="cursor-pointer border-1 border-white h-13 mx-2 dark:text-white dark:bg-black dark:data-[state=active]:bg-gray-600"
-            ><span className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
-              <Headset className="lg:mr-4"/>
-              Study Jap Online
-              </span>
-            </TabsTrigger> */}
             {/* <TabsTrigger
               value="Create"
               className="cursor-pointer h-10 border-1 border-white dark:text-white dark:bg-black dark:data-[state=active]:bg-gray-700"
