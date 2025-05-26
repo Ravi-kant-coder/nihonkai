@@ -2,8 +2,8 @@ import LikeButton from "./LikeButton";
 
 const NmaxExp = () => {
   return (
-    <div className="mx-auto lg:w-10/11 lg:my-2 bg-[rgb(70,70,70)] dark:bg-black/90 rounded-md shadow-xl lg:p-6 p-2 lg:space-y-4 border border-gray-200 dark:border-gray-700">
-      <h2 className="lg:text-xl lg:mb-4 text-white text-center lg:font-semibold mb-2 p-1 rounded-md bg-[rgb(30,30,30)]">
+    <div className="mx-auto lg:w-10/11 lg:my-2 w-[95vw] bg-[rgb(70,70,70)] dark:bg-black/90 rounded-md shadow-xl lg:p-6 p-2 lg:space-y-4 border border-gray-200 dark:border-gray-700">
+      <h2 className="lg:text-xl text-sm lg:mb-4 text-white text-center lg:font-semibold mb-2 p-1 rounded-md bg-[rgb(30,30,30)]">
         Some reasons why should you DEFENITELY have a look on{" "}
         <a href="https://www.nihongomax.com" target="_blank">
           <span className="border-1 border-white bg-black/30 lg:p-1 p-0.5 rounded hover:text-white hover:bg-black">
@@ -37,7 +37,7 @@ const NmaxExp = () => {
         </li>
       </ul>
       <div className="lg:p-4 lg:pt-4 p-2 lg:max-w-6xl mx-auto bg-gray-400 dark:bg-gray-900 rounded-lg">
-        <h2 className=" flex justify-between lg:text-2xl text-md font-semibold lg:mb-2 text-center">
+        <h2 className=" flex text-sm justify-between lg:text-2xl text-md font-semibold lg:mb-2 text-center">
           Let's Compare (9 main differences)
           <LikeButton />
         </h2>
@@ -45,15 +45,15 @@ const NmaxExp = () => {
           <thead className="dark:bg-gray-700 block">
             <tr>
               <th className="w-1/6"></th>
-              <th className="text-left lg:py-3 lg:text-xl lg:px-4 border-b w-[50vw] py-1 dark:border-gray-600">
+              <th className="text-left text-sm lg:py-3 lg:text-xl lg:px-4 border-b w-[50vw] py-1 dark:border-gray-600">
                 NIHONGOMAX.COM
               </th>
-              <th className="text-left lg:py-3 lg:text-xl lg:px-4 border-b w-[50vw] py-1 dark:border-gray-600">
+              <th className="text-left lg:py-3 text-sm lg:text-xl lg:px-4 border-b w-[50vw] py-1 dark:border-gray-600">
                 Any <span className="hidden lg:inline">Regular </span>Institute
               </th>
             </tr>
           </thead>
-          <tbody className="text-sm block overflow-y-scroll h-[30vh]">
+          <tbody className="text-sm block overflow-y-scroll h-[25vh]">
             <tr>
               <td className="lg:py-3 py-1 pl-2 font-bold lg:px-4 border-b dark:border-gray-700">
                 Cost

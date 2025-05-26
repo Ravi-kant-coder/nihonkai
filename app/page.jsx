@@ -8,7 +8,7 @@ const pacifico = Pacifico({
 
 const Home = () => {
   return (
-    <>
+    <div className="relative w-screen overflow-hidden h-screen">
       <Navbar />
       <img
         src={"japanese-gate.jpg"}
@@ -36,7 +36,7 @@ const Home = () => {
           your gateway to japan or MNCs in india
         </span>
       </h3>
-    </>
+    </div>
   );
 };
 export default Home;
