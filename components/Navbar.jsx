@@ -75,7 +75,7 @@ const Navbar = () => {
 
           {/*----------------- Second half tabs (Up on Mobile) ----------------------  */}
 
-          <TabsList className="w-full fixed top-0 dark:bg-black h-13 lg:h-10 bg-[rgb(140,140,140)] lg:rounded-l-none lg:static">
+          <TabsList className="w-full dark:bg-black h-13 lg:h-10 bg-[rgb(140,140,140)] lg:rounded-l-none lg:static">
             <TabsTrigger
               value="NmaxExp"
               className="cursor-pointer border-1 border-white dark:text-white dark:bg-black dark:data-[state=active]:bg-gray-600"

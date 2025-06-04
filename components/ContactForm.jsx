@@ -21,6 +21,7 @@ const ContactForm = () => {
   const [isMobReq, setIsMobReq] = useState(false);
   const [isQueryReq, setIsQueryReq] = useState(false);
   const [invalidMob, setInvalidMob] = useState(false);
+  const [feedback, setFeedback] = useState("");
 
   const handleContactForm = async (e) => {
     e.preventDefault();
@@ -54,6 +55,7 @@ const ContactForm = () => {
       setTimeout(() => {
         setSubmit(true);
         setSubmitted(false);
+        setFeedback(`Thank you ${studentName}`);
       }, 3000);
     } catch (error) {
       console.error("Error message:", error.message);
@@ -85,7 +87,7 @@ const ContactForm = () => {
           animate={{ opacity: 1, y: 20 }}
           transition={{ type: "spring", stiffness: 200 }}
         >
-          <Card className="w-[70vw] dark:bg-black bg-[rgb(170,170,170)] lg:p-5 lg:w-[25vw] py-15 lg:py-10 ">
+          <Card className="w-[80vw] dark:bg-black bg-[rgb(170,170,170)] lg:p-5 lg:w-[25vw] py-15 lg:py-10 ">
             <CardContent>
               <div className="text-center mb-2 text-2xl">
                 <h1 className="lg:text-[18px] text-md mt-4 mb-5 ">
@@ -196,7 +198,7 @@ const ContactForm = () => {
                       <span className="mr-2">Submitted</span>{" "}
                       <CircleCheckBig className="font-bold" />
                     </motion.p>
-                  )}{" "}
+                  )}
                 </div>
               </form>
             </CardContent>

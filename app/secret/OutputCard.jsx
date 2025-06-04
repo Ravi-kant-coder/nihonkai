@@ -44,7 +44,7 @@ const OutputCard = ({ queryObj, createdAt }) => {
 
         <button
           onClick={() => setShowModal(true)}
-          className="w-1/5 align-center mt-4 bg-red-400 cursor-pointer hover:bg-red-500 hover:text-white font-medium py-1 px-4 rounded"
+          className="lg:w-1/5 w-1/2 align-center mt-4 bg-red-400 cursor-pointer hover:bg-red-500 hover:text-white font-medium py-1 px-4 rounded"
         >
           Delete
         </button>
