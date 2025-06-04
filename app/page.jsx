@@ -12,7 +12,7 @@ const Home = () => {
       <Navbar />
       <img
         src={"japanese-gate.jpg"}
-        className="object-cover w-full h-screen dark:opacity-40 pointer-events-none z-1"
+        className="object-cover fixed w-full h-screen dark:opacity-40 pointer-events-none z-1"
         alt="Nihonkai Nihongomax"
       />
       <a
