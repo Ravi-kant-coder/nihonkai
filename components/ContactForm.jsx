@@ -123,7 +123,7 @@ const ContactForm = () => {
                       onChange={handleNameChange}
                     />
                     {isNameReq && (
-                      <p className="text-red-700 text-xs dark:text-white">
+                      <p className="text-red-700 text-xs">
                         Your Name is required.
                       </p>
                     )}
@@ -152,11 +152,11 @@ const ContactForm = () => {
                       maxLength={10}
                     />{" "}
                     {isMobReq ? (
-                      <p className="text-red-700 dark:text-white text-xs">
+                      <p className="text-red-700 text-xs">
                         Mobile number is required.
                       </p>
                     ) : invalidMob ? (
-                      <p className="text-red-700 text-xs dark:text-white">
+                      <p className="text-red-700 text-xs ">
                         Please put Valid 10 Digit Mobile number.
                       </p>
                     ) : null}
@@ -174,7 +174,7 @@ const ContactForm = () => {
                     }}
                   />{" "}
                   {isQueryReq && (
-                    <p className="text-red-700 text-xs dark:text-white">
+                    <p className="text-red-700 text-xs">
                       Your Query is required.
                     </p>
                   )}

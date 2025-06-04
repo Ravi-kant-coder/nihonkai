@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex justify-center items-center lg:mx-10">
           {/*----------------- First half tabs (Fixed-Bottom on Mobile) ----------------------  */}
 
-          <TabsList className="w-full fixed bottom-2 dark:bg-black bg-[rgb(140,140,140)] h-20 lg:h-10 mx-2 lg:mx-0 lg:static lg:rounded-r-none">
+          <TabsList className="w-full fixed bottom-0 dark:bg-black bg-[rgb(140,140,140)] h-20 lg:h-10 mx-2 lg:mx-0 lg:static lg:rounded-r-none">
             <div className="flex gap-2 w-full justify-center m-5">
               <TabsTrigger
                 value="jap-courses"
@@ -75,7 +75,7 @@ const Navbar = () => {
 
           {/*----------------- Second half tabs (Up on Mobile) ----------------------  */}
 
-          <TabsList className="w-full dark:bg-black h-13 lg:h-10 bg-[rgb(140,140,140)] lg:rounded-l-none">
+          <TabsList className="w-full fixed top-0 dark:bg-black h-13 lg:h-10 bg-[rgb(140,140,140)] lg:rounded-l-none lg:static">
             <TabsTrigger
               value="NmaxExp"
               className="cursor-pointer border-1 border-white dark:text-white dark:bg-black dark:data-[state=active]:bg-gray-600"

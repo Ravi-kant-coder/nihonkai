@@ -31,7 +31,7 @@ const Home = () => {
         <span className={` ${pacifico.className}`}>nihongomax</span>
       </a>
 
-      <h3 className="absolute lg:left-100 bottom-30 left-15 lg:text-4xl text-xl lg:bottom-20 text-animate dark:text-black z-1">
+      <h3 className="absolute lg:left-100 bottom-30 left-5 lg:text-4xl text-xl lg:bottom-20 text-animate dark:text-black z-1">
         <span className={` ${pacifico.className}`}>
           your gateway to japan or MNCs in india
         </span>
