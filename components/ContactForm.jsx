@@ -52,10 +52,10 @@ const ContactForm = () => {
       setQueryText("");
       setSubmitted(true);
       setSubmit(false);
+      setFeedback(`Thank you ${studentName}`);
       setTimeout(() => {
         setSubmit(true);
         setSubmitted(false);
-        setFeedback(`Thank you ${studentName}`);
       }, 3000);
     } catch (error) {
       console.error("Error message:", error.message);
@@ -195,7 +195,7 @@ const ContactForm = () => {
                       transition={{ type: "spring", stiffness: 200 }}
                       className="flex items-center py-2 text-white justify-center w-full rounded-md p-1 bg-green-900 "
                     >
-                      <span className="mr-2">Submitted</span>{" "}
+                      <span className="mr-2">{feedback}</span>{" "}
                       <CircleCheckBig className="font-bold" />
                     </motion.p>
                   )}
